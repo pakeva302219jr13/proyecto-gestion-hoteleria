@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de salida y build
+dist/
+build/
+
+# Archivos de configuración del entorno local
+.env*
+!.env.example
+
+# Sistemas Operativos
+.DS_Store
+Thumbs.db
+
+# Directorios de bases de datos locales
+*.sqlite
+*.sqlite3
+database.sqlite*
+
+# Configuraciones de IDE/Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales y de sistema
+*.temp
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Directorios específicos del proyecto
+public/uploads/
+public/images/
+temp/
+
+# Configuración de Sequelize o migraciones (si es necesario excluirlas)
+migrations/
+seeders/
+
+# Carpetas de documentación (si no deseas versionarlas)
+docs/
+
+# Repositorios de terceros o librerías externas
+vendor/
+
+# Despliegue (si usas algún framework como Next.js o similar)
+.next/
+out/
+
+# Otros archivos específicos del proyecto
+*.log
